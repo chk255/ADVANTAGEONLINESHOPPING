@@ -1,0 +1,56 @@
+chkautomationpractice@gmail.com
+userName1:chandan.kumar
+Chk@1111
+
+Login:
+Validate User is able to Login with Valid Credentials and able to navigate to HOME Page.
+Validate User is not able to Login with inValid Credentials and able to see error messages.
+
+HomePage:
+TC03_HomePage_Validate_Username_is_displayed_after_Login:
+TC04_HomePage_Validate_Search_Functionality
+TC05_HomePage_Validate User_is_able_to_select_Speaker_category_and_navigate_to_category_page.
+
+Category Page:
+TC06_CategoryPage_Validate_Header.
+Validate User is able to select Bose SoundLink Wireless Speaker and navigate to product page.
+
+Product Page:
+Validate Name and Price of the product
+Validate user is able to increase and decrease the quantity
+validate user is not able to decrease the quantity to 0.
+Validate user is able to add product to cart
+validate after clicking on Cart small dialog box opens and disappered automatically
+validate product name price and checkout button at dailogbox
+validate after hovering on cart icon dailog box opens with product name price and checkout button
+
+Shopping Cart:
+Validate Header
+Product name price
+Total amount
+validate user is able to navigate to checkout button after clicking.
+
+Checkout:
+validate headers:
+validate shipping details
+validate payment methods
+validate order summary
+validate order is placed after clicking paynow button.
+validate order number and product details
+
+My orders:
+validate header
+validate product and order number , order date
+
+
+
+My Account :
+Validate Header
+Validate Account Details
+Validate Shipping Details
+Validate preffered shupping method
+Validate Notify me about promotions checkbox is checked.
+Validate categories Tablet Laptops Headphones Speaker Mice are checked.
+Validate Delete Account Button is enabled
+
+
