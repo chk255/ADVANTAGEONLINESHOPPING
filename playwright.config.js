@@ -1,6 +1,8 @@
 // @ts-check
 import { defineConfig, devices } from '@playwright/test';
 import { on } from 'events';
+import dotenv from 'dotenv';
+import path from 'path';
 
 /**
  * Read environment variables from file.
@@ -9,6 +11,10 @@ import { on } from 'events';
 // import dotenv from 'dotenv';
 // import path from 'path';
 // dotenv.config({ path: path.resolve(__dirname, '.env') });
+
+const ENV_NAME = process.env.ENV || 'uat'
+
+dotenv.config({path: path.join(__dirname, 'TestData', `Data.env.${ENV_NAME}`)})
 
 /**
  * @see https://playwright.dev/docs/test-configuration
@@ -24,7 +30,8 @@ export default defineConfig({
   /* Opt out of parallel tests on CI. */
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: 'html',
+   reporter: [["html"], ["line"], ["allure-playwright"],['monocart-reporter']], // allure report . Monocart report
+  /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
