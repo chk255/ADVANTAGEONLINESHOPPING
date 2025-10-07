@@ -1,0 +1,108 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - complementary [ref=e2]:
+    - list [ref=e3]:
+      - listitem [ref=e4]:
+        - link [ref=e5] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - img [ref=e6] [cursor=pointer]
+      - listitem [ref=e8]:
+        - link "8" [ref=e9] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - img [ref=e10] [cursor=pointer]
+          - generic [ref=e12] [cursor=pointer]: "8"
+      - listitem [ref=e13] [cursor=pointer]:
+        - link "chandan.kumar" [ref=e14] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - img [ref=e15] [cursor=pointer]
+          - generic [ref=e17] [cursor=pointer]: chandan.kumar
+  - banner [ref=e18]:
+    - navigation:
+      - list [ref=e19]:
+        - listitem [ref=e20]:
+          - link [ref=e21] [cursor=pointer]:
+            - /url: javascript:void(0)
+            - img [ref=e22] [cursor=pointer]
+            - img [ref=e23] [cursor=pointer]
+        - listitem [ref=e25]:
+          - link "ShoppingCart" [ref=e26] [cursor=pointer]:
+            - /url: "#/shoppingCart"
+            - img [ref=e27] [cursor=pointer]
+            - generic [ref=e29] [cursor=pointer]: "8"
+          - list:
+            - listitem
+        - listitem [ref=e30]:
+          - link "UserMenu" [ref=e31] [cursor=pointer]:
+            - /url: javascript:void(0)
+            - generic [ref=e32] [cursor=pointer]: chandan.kumar
+            - img [ref=e34] [cursor=pointer]
+        - listitem [ref=e36]:
+          - generic [ref=e40] [cursor=pointer]:
+            - img [ref=e42] [cursor=pointer]
+            - generic:
+              - textbox "Search AdvantageOnlineShopping.com" [ref=e44]
+              - img [ref=e46] [cursor=pointer]
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+      - link "dvantage DEMO" [ref=e48] [cursor=pointer]:
+        - /url: "#/"
+        - img [ref=e49] [cursor=pointer]
+        - generic [ref=e51] [cursor=pointer]: dvantage
+        - generic [ref=e52] [cursor=pointer]: DEMO
+  - generic [ref=e53]:
+    - navigation [ref=e54]:
+      - link "HOME/" [ref=e55] [cursor=pointer]:
+        - /url: /#
+      - link "SPEAKERS /" [ref=e56] [cursor=pointer]:
+        - /url: ""
+      - generic [ref=e57]: BOSE SOUNDLINK WIRELESS SPEAKER
+    - generic [ref=e58]:
+      - article [ref=e59]:
+        - generic [ref=e60]:
+          - figure [ref=e62]
+          - generic [ref=e63]:
+            - heading "BOSE SOUNDLINK WIRELESS SPEAKER" [level=1] [ref=e64]
+            - heading "$129.00" [level=2] [ref=e65]
+            - paragraph [ref=e66]: If music is your motivation, wait until you hear the SoundLink® Color Bluetooth speaker. It plays your favorite tunes from your favorite Bluetooth device-out loud in clear, full audio-just about anywhere you want to go. It's small, durable and simple to use. And it comes in a spectrum of colors to match almost any style.
+            - generic [ref=e67]:
+              - heading "Color:" [level=2] [ref=e69]
+              - generic [ref=e75]:
+                - generic [ref=e76]: "Quantity:"
+                - textbox [ref=e81] [cursor=pointer]: "1"
+              - button "ADD TO CART" [active] [ref=e84] [cursor=pointer]
+      - article [ref=e86]:
+        - heading "PRODUCT SPECIFICATIONS" [level=2] [ref=e87]
+        - generic [ref=e88]:
+          - generic [ref=e89]: COMPATIBILITY
+          - generic [ref=e90]: Any device that has bluetooth enabled or a 3.5 mm audio connector.
+        - generic [ref=e91]:
+          - generic [ref=e92]: CONNECTOR
+          - generic [ref=e93]: Wireless
+        - generic [ref=e94]:
+          - generic [ref=e95]: MANUFACTURER
+          - generic [ref=e96]: Bose
+        - generic [ref=e97]:
+          - generic [ref=e98]: WEIGHT
+          - generic [ref=e99]: 1.25 lb
+        - generic [ref=e100]:
+          - generic [ref=e101]: WIRELESS TECHNOLOGY
+          - generic [ref=e102]: Bluetooh®
+    - contentinfo [ref=e103]:
+      - generic [ref=e104]:
+        - heading "FOLLOW US" [level=3] [ref=e105]
+        - generic [ref=e106]:
+          - link "icon":
+            - /url: " https://www.facebook.com/MicroFocus/"
+            - img "icon" [ref=e107] [cursor=pointer]
+          - link "icon":
+            - /url: https://twitter.com/MicroFocus
+            - img "icon" [ref=e108] [cursor=pointer]
+          - link "icon":
+            - /url: https://www.linkedin.com/company/1024?trk=tyah&trkInfo=clickedVertical%3Ashowcase%2CclickedEntityId%3A1024%2Cidx%3A2-1-2%2CtarId%3A145431482.327%2Ctas%3Ahewlett%20packard%20enterprise%20software
+            - img "icon" [ref=e109] [cursor=pointer]
+        - generic [ref=e110]: © Advantage Inc, 2024. Release 3.3
+```

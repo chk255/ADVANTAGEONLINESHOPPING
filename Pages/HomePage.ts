@@ -33,6 +33,8 @@ export class HomePage extends PageUtils{
     
     }
     async Search_Product(productName:string){
+       // await this.page.waitForLoadState("domcontentloaded");
+       await this.SEARCHICON.waitFor();
         await this.Click(this.SEARCHICON);
         await this.SEARCH.waitFor();
         await this.Enter(this.SEARCH,productName);
@@ -51,7 +53,7 @@ export class HomePage extends PageUtils{
     }
     async Select_Category(Category:string){
         const category=this.page.locator("//span[text()='"+Category+"']");
-        //await category.waitFor();
+        await category.waitFor();
         await this.Click(category);
         return this.categoryPage;
 
