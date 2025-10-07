@@ -3,32 +3,33 @@ userName1:chandan.kumar
 Chk@1111
 
 Login:
-Validate User is able to Login with Valid Credentials and able to navigate to HOME Page.
-Validate User is not able to Login with inValid Credentials and able to see error messages.
+TC01_Login_01_Validate User is able to Login with Valid Credentials and able to navigate to HOME Page.
+TC02_Login_02_Validate User is not able to Login with inValid Credentials and able to see error messages.
 
 HomePage:
-TC03_HomePage_Validate_Username_is_displayed_after_Login:
-TC04_HomePage_Validate_Search_Functionality
-TC05_HomePage_Validate User_is_able_to_select_Speaker_category_and_navigate_to_category_page.
+TC03_HomePage_01_Validate_Username_is_displayed_after_Login:
+TC04_HomePage_02_Validate_Search_Functionality
+TC05_HomePage_03_Validate User_is_able_to_select_Speaker_category_and_navigate_to_category_page.
 
 Category Page:
-TC06_CategoryPage_Validate_Header.
-Validate User is able to select Bose SoundLink Wireless Speaker and navigate to product page.
+TC06_CategoryPage_01_Validate_Header.
+TC07_CategoryPage_02_Validate_User_is_able_to_select__and_navigate_to_product page.(Add data driven)
 
 Product Page:
-Validate Name and Price of the product
+TC08_ProductPage_01_Validate_Name_and_Price_of_the_product
 Validate user is able to increase and decrease the quantity
 validate user is not able to decrease the quantity to 0.
-Validate user is able to add product to cart
+TC09_ProductPage_02_Validate_user_is_able_to_add_product_to_cart
 validate after clicking on Cart small dialog box opens and disappered automatically
 validate product name price and checkout button at dailogbox
 validate after hovering on cart icon dailog box opens with product name price and checkout button
+TC10_ProductPage_03_Validate_user_is_able_to_Go_to_CartPage_after_clicking_Cart_Icon.
 
 Shopping Cart:
-Validate Header
-Product name price
-Total amount
-validate user is able to navigate to checkout button after clicking.
+TC11_Shopping_Cart_01_Validate_Header
+TC12_Shopping_Cart_02_Product name price
+TC13_Shopping_Cart_03_Total amount
+TC14_Shopping_Cart_04_validate user is able to navigate to checkout button after clicking.
 
 Checkout:
 validate headers:

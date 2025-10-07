@@ -1,0 +1,164 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - img [ref=e4]
+  - complementary [ref=e9]:
+    - list [ref=e10]:
+      - listitem [ref=e11]:
+        - link [ref=e12] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - img [ref=e13] [cursor=pointer]
+      - listitem [ref=e15]:
+        - link [ref=e16] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - img [ref=e17] [cursor=pointer]
+      - listitem [ref=e19] [cursor=pointer]:
+        - link "chandan.kumar" [ref=e20] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - img [ref=e21] [cursor=pointer]
+          - generic [ref=e23] [cursor=pointer]: chandan.kumar
+  - banner [ref=e24]:
+    - navigation:
+      - list [ref=e25]:
+        - listitem [ref=e26]:
+          - link [ref=e27] [cursor=pointer]:
+            - /url: javascript:void(0)
+            - img [ref=e28] [cursor=pointer]
+            - img [ref=e29] [cursor=pointer]
+        - listitem [ref=e31]:
+          - link "ShoppingCart" [ref=e32] [cursor=pointer]:
+            - /url: "#/shoppingCart"
+            - img [ref=e33] [cursor=pointer]
+          - list:
+            - listitem
+        - listitem [ref=e35]:
+          - link "UserMenu" [ref=e36] [cursor=pointer]:
+            - /url: javascript:void(0)
+            - generic [ref=e37] [cursor=pointer]: chandan.kumar
+            - img [ref=e39] [cursor=pointer]
+        - listitem [ref=e41]:
+          - generic [ref=e45] [cursor=pointer]:
+            - img [ref=e47] [cursor=pointer]
+            - generic:
+              - textbox "Search AdvantageOnlineShopping.com" [ref=e49]
+              - img [ref=e51] [cursor=pointer]
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+      - link "dvantage DEMO" [ref=e53] [cursor=pointer]:
+        - /url: "#/"
+        - img [ref=e54] [cursor=pointer]
+        - generic [ref=e56] [cursor=pointer]: dvantage
+        - generic [ref=e57] [cursor=pointer]: DEMO
+  - article [ref=e60]:
+    - generic [ref=e61]:
+      - heading "ENJOY PREMIUM SOUND" [level=1] [ref=e62]
+      - heading "Colorful style meets serious sound" [level=2] [ref=e63]
+      - heading "HP S9500 Bluetooth Wireless Speaker | Starting at $200" [level=3] [ref=e64]
+      - link "BUY NOW" [ref=e65] [cursor=pointer]:
+        - /url: "#/product/19"
+        - button "BUY NOW" [ref=e66] [cursor=pointer]
+    - navigation [ref=e68]:
+      - link "HOME/" [ref=e69] [cursor=pointer]:
+        - /url: "#/"
+      - generic [ref=e70]: SPEAKERS
+    - heading "SPEAKERS" [level=3] [ref=e71]
+    - generic [ref=e72]:
+      - generic [ref=e74]:
+        - generic [ref=e75]:
+          - paragraph [ref=e76]:
+            - generic [ref=e77]: 7 ITEMS
+          - generic [ref=e78]:
+            - generic [ref=e79]: "FILTER BY:"
+            - list [ref=e80]:
+              - listitem [ref=e81]:
+                - link "PRICE" [ref=e82] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e83]:
+                - link "COMPATIBILITY" [ref=e84] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e85]:
+                - link "MANUFACTURER" [ref=e86] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e87]:
+                - link "WEIGHT" [ref=e88] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e89]:
+                - link "WIRELESS TECHNOLOGY" [ref=e90] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - listitem [ref=e91]:
+                - link "COLOR" [ref=e92] [cursor=pointer]:
+                  - /url: javascript:void(0)
+        - list [ref=e94]:
+          - listitem [ref=e95] [cursor=pointer]:
+            - generic [ref=e96] [cursor=pointer]:
+              - generic [ref=e97]: SHOP NOW
+              - img [ref=e98] [cursor=pointer]
+            - paragraph [ref=e100] [cursor=pointer]:
+              - generic [ref=e101] [cursor=pointer]: Bose Soundlink Bluetooth Speaker III
+            - paragraph [ref=e102] [cursor=pointer]:
+              - generic [ref=e103] [cursor=pointer]: $269.99
+          - listitem [ref=e104] [cursor=pointer]:
+            - generic [ref=e105] [cursor=pointer]:
+              - generic [ref=e106]: SHOP NOW
+              - img [ref=e107] [cursor=pointer]
+            - paragraph [ref=e109] [cursor=pointer]:
+              - generic [ref=e110] [cursor=pointer]: Bose SoundLink Wireless Speaker
+            - paragraph [ref=e111] [cursor=pointer]:
+              - generic [ref=e112] [cursor=pointer]: $129.00
+          - listitem [ref=e113] [cursor=pointer]:
+            - generic [ref=e114] [cursor=pointer]:
+              - generic [ref=e115]: SHOP NOW
+              - img [ref=e116] [cursor=pointer]
+            - paragraph [ref=e118] [cursor=pointer]:
+              - generic [ref=e119] [cursor=pointer]: HP Roar Mini Wireless Speaker
+            - paragraph [ref=e120] [cursor=pointer]:
+              - generic [ref=e121] [cursor=pointer]: $44.99
+          - listitem [ref=e122] [cursor=pointer]:
+            - generic [ref=e123] [cursor=pointer]:
+              - generic [ref=e124]: SHOP NOW
+              - img [ref=e125] [cursor=pointer]
+            - paragraph [ref=e127] [cursor=pointer]:
+              - generic [ref=e128] [cursor=pointer]: HP Roar Plus Wireless Speaker
+            - paragraph [ref=e129] [cursor=pointer]:
+              - generic [ref=e130] [cursor=pointer]: $169.99
+          - listitem [ref=e131] [cursor=pointer]:
+            - generic [ref=e132] [cursor=pointer]:
+              - generic [ref=e133]: SHOP NOW
+              - img [ref=e134] [cursor=pointer]
+            - paragraph [ref=e136] [cursor=pointer]:
+              - generic [ref=e137] [cursor=pointer]: HP Roar Wireless Speaker
+            - paragraph [ref=e138] [cursor=pointer]:
+              - generic [ref=e139] [cursor=pointer]: $84.99
+          - listitem [ref=e140] [cursor=pointer]:
+            - generic [ref=e141] [cursor=pointer]:
+              - generic [ref=e142]: SHOP NOW
+              - img [ref=e143] [cursor=pointer]
+            - paragraph [ref=e145] [cursor=pointer]:
+              - generic [ref=e146] [cursor=pointer]: HP S9500 Bluetooth Wireless Speaker
+            - paragraph [ref=e147] [cursor=pointer]:
+              - generic [ref=e148] [cursor=pointer]: $200.00
+          - listitem [ref=e149] [cursor=pointer]:
+            - generic [ref=e150] [cursor=pointer]:
+              - generic [ref=e151]: SHOP NOW
+              - img [ref=e152] [cursor=pointer]
+            - paragraph [ref=e154] [cursor=pointer]:
+              - generic [ref=e155] [cursor=pointer]: Logitech X100 Speaker System - Wireless Speaker(s)
+            - paragraph [ref=e156] [cursor=pointer]:
+              - generic [ref=e157] [cursor=pointer]: $49.99
+      - generic [ref=e159]:
+        - heading "FOLLOW US" [level=3] [ref=e160]
+        - generic [ref=e161]:
+          - link "icon":
+            - /url: " https://www.facebook.com/MicroFocus/"
+            - img "icon" [ref=e162] [cursor=pointer]
+          - link "icon":
+            - /url: https://twitter.com/MicroFocus
+            - img "icon" [ref=e163] [cursor=pointer]
+          - link "icon":
+            - /url: https://www.linkedin.com/company/1024?trk=tyah&trkInfo=clickedVertical%3Ashowcase%2CclickedEntityId%3A1024%2Cidx%3A2-1-2%2CtarId%3A145431482.327%2Ctas%3Ahewlett%20packard%20enterprise%20software
+            - img "icon" [ref=e164] [cursor=pointer]
+        - generic [ref=e165]: © Advantage Inc, 2024. Release 3.3
+```
